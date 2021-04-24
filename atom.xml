@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+	<title>My Purple Blog</title>
+	<subtitle>Lorem ipsum dolor sit amet consecuteor</subtitle>
+	
+	<link href="/atom.xml" rel="self"/>
+	<link href=""/>
+	<updated>2021-04-24T12:52:38Z</updated>
+	<id>https://example.com/</id>
+	<author>
+		<name>John Doe</name>
+		<email>johndoe@example.com</email>
+	</author>
+	
+	<entry>
+		<title>My very first post</title>
+		<link href="/posts/firstpost/"/>
+		<updated>2021-03-10T00:00:00Z</updated>
+		<id>/posts/firstpost/</id>
+		<content type="html">&lt;p&gt;hello&lt;/p&gt;
+&lt;h2&gt;wow nice h2 there&lt;/h2&gt;
+&lt;p&gt;Lorem ipsum, dolor sit amet consectetur adipisicing elit. Est, minima voluptates maxime quaerat qui, cumque temporibus libero nesciunt explicabo quasi eos, fugit voluptatem impedit expedita! Nesciunt nulla quisquam magnam libero consequatur debitis est, dolorum quam excepturi soluta ipsa aspernatur optio eveniet corporis sunt eaque beatae assumenda a ullam aliquid ad.&lt;/p&gt;
+&lt;p&gt;Reprehenderit officia labore debitis quae neque fugiat iste sed, maiores nisi eligendi consequatur nesciunt possimus rem earum quidem inventore architecto praesentium, cum maxime, quaerat ipsam? Ea molestiae consequatur mollitia tempore expedita alias dicta quam tenetur vitae dolor magnam velit quod quisquam explicabo illo, ab eaque molestias reiciendis repellat fugiat culpa optio a earum nisi.&lt;/p&gt;
+&lt;h3&gt;Vero corporis ipsa facere tenetur explicabo&lt;/h3&gt;
+&lt;p&gt;totam expedita delectus reprehenderit est eum. Eius, tenetur praesentium tempore dicta culpa labore sit hic similique at nesciunt temporibus perspiciatis aliquid dolorem esse voluptatem quis, cupiditate, aspernatur illo ipsam.&lt;/p&gt;
+&lt;h4&gt;Deleniti provident nobis&lt;/h4&gt;
+&lt;p&gt;maxime, qui molestias ex recusandae, magni consectetur iure nostrum sequi suscipit harum corrupti autem consequuntur animi veritatis? Eos laudantium quod beatae repudiandae accusamus fuga, adipisci tenetur odio nihil commodi optio ipsam voluptates quam esse reiciendis!&lt;/p&gt;
+&lt;p&gt;Eligendi inventore nesciunt veritatis mollitia cum! Veniam placeat saepe iure ab eius, ipsa quisquam voluptas quod ad libero ipsum vel officiis ullam eum.&lt;/p&gt;
+</content>
+	</entry>
+</feed>

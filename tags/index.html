@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Homepage | My Purple Blog</title>
+  <title>List of all tags | My Purple Blog</title>
   <meta name="description" content="Lorem ipsum dolor sit amet consectetur adipisicing elit.">
 
   <link rel="shortcut icon" href="/static/img/favicon.ico" type="image/x-icon">
@@ -25,13 +25,13 @@
 
     <div class="navbar__links">
       
-        <a class="navbar__link navbar__link--active" href="/">
+        <a class="navbar__link " href="/">
           Home
         </a>
         <a class="navbar__link " href="/pages/about/">
           About
         </a>
-        <a class="navbar__link " href="/tags/">
+        <a class="navbar__link navbar__link--active" href="/tags/">
           Tags
         </a>
     </div>
@@ -39,13 +39,13 @@
 
   <div class="navbar__mobile-links">
     
-      <a class="navbar__mobile-link navbar__mobile-link--active" href="/">
+      <a class="navbar__mobile-link " href="/">
         Home
       </a>
       <a class="navbar__mobile-link " href="/pages/about/">
         About
       </a>
-      <a class="navbar__mobile-link " href="/tags/">
+      <a class="navbar__mobile-link navbar__mobile-link--active" href="/tags/">
         Tags
       </a>
   </div>
@@ -53,55 +53,26 @@
 </nav>
   
 <div class="container">
-  <div class="hero">
-    <h1>
-      
-        
-        Welcome to my purple blog
-      
-    </h1>
-    <p class="hero__description">
-      
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores accusantium deserunt odio esse.
-      
-    </p>
-  </div>
 
-  <h2 class="section-title">
-    Latest Posts
-  </h2>
+  <h1>All Tags</h1>
+
   <div class="card-grid">
-  
+    
     <div class="card">
-      <h3 class="card__title">
-        <a href="/posts/firstpost/">My very first post</a>
-      </h3>
-      <p class="card__date">10 Mar, 2021</p>
-      <p class="card__description">Nesciunt nulla quisquam magnam libero consequatur debitis est, dolorum quam excepturi soluta</p>
-      <p class="card__subtitle">Tags:</p>
-      <div class="card__tags">
-        
-          
-        
-          
-            <a href="/tags/hello">hello</a>, 
-          
-        
-          
-            <a href="/tags/css">css</a>, 
-          
-        
-          
-            <a href="/tags/nice">nice</a>
-          
-        
-      </div>
+      <h2 class="card__title"><a href="/tags/hello">hello</a></h2>
+      <div class="card__subtitle">1 Posts</div>
     </div>
-  
-</div>
-  <div class="pagination">
-      
-      
+    
+    <div class="card">
+      <h2 class="card__title"><a href="/tags/css">css</a></h2>
+      <div class="card__subtitle">1 Posts</div>
+    </div>
+    
+    <div class="card">
+      <h2 class="card__title"><a href="/tags/nice">nice</a></h2>
+      <div class="card__subtitle">1 Posts</div>
+    </div>
+    
   </div>
 </div>
 
