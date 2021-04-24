@@ -1,20 +1,20 @@
 module.exports = {
   meta: {
-    title: "My Purple Blog",
-    description: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+    title: "Brutal Harmony",
+    description: "A blog about the brutal harmony in the world of tech.",
     lang: "en",
-    siteUrl: "https://example.com/",
+    siteUrl: "https://brutalharmony.net/",
   },
   feed: { // used in feed.xml.njk
-    subtitle: "Lorem ipsum dolor sit amet consecuteor",
+    subtitle: "A blog about the brutal harmony in the world of tech.",
     filename: "atom.xml",
     path: "/atom.xml",
-    id: "https://example.com/",
-    authorName: "John Doe",
-    authorEmail: "johndoe@example.com"
+    id: "https://brutalharmony.net/",
+    authorName: "Alexandru Chiritescu",
+    authorEmail: "alex.chiri@gmail.com"
   },
   hero: { // used in hero section of main page ie. index.html.njk
-    title: "Welcome to my purple blog",
-    description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores accusantium deserunt odio esse."
+    title: "Brutal Harmony",
+    description: "A blog about the brutal harmony in the world of tech."
   }
 }
