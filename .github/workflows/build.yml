@@ -31,3 +31,4 @@ jobs:
           publish_dir: ./docs
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_branch: pages
+          cname: brutalharmony.net
