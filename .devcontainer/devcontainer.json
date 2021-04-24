@@ -1,5 +1,0 @@
-{
-  "image": "eleventy:1",
-  "remoteUser": "alex",
-  "extensions": ["sissel.shopify-liquid"]
-}
