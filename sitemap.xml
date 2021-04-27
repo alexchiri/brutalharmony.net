@@ -2,42 +2,37 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://brutalharmony.net/posts/firstpost/</loc>
-    <lastmod>2021-03-10</lastmod>
+    <loc>https://brutalharmony.net/posts/2021-04-21-professional-software-developer/</loc>
+    <lastmod>2021-04-27</lastmod>
   </url>
   
   <url>
     <loc>https://brutalharmony.net/README/</loc>
-    <lastmod>2021-04-24</lastmod>
+    <lastmod>2021-04-27</lastmod>
   </url>
   
   <url>
     <loc>https://brutalharmony.net/</loc>
-    <lastmod>2021-04-24</lastmod>
+    <lastmod>2021-04-27</lastmod>
   </url>
   
   <url>
     <loc>https://brutalharmony.net/pages/about/</loc>
-    <lastmod>2021-04-24</lastmod>
+    <lastmod>2021-04-27</lastmod>
   </url>
   
   <url>
-    <loc>https://brutalharmony.net/tags/hello/</loc>
-    <lastmod>2021-04-24</lastmod>
+    <loc>https://brutalharmony.net/tags/software-development/</loc>
+    <lastmod>2021-04-27</lastmod>
   </url>
   
   <url>
-    <loc>https://brutalharmony.net/tags/css/</loc>
-    <lastmod>2021-04-24</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://brutalharmony.net/tags/nice/</loc>
-    <lastmod>2021-04-24</lastmod>
+    <loc>https://brutalharmony.net/tags/work/</loc>
+    <lastmod>2021-04-27</lastmod>
   </url>
   
   <url>
     <loc>https://brutalharmony.net/tags/</loc>
-    <lastmod>2021-04-24</lastmod>
+    <lastmod>2021-04-27</lastmod>
   </url>
 </urlset>
