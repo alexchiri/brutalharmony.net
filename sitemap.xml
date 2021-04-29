@@ -1,38 +1,109 @@
 <?xml version="1.0" encoding="utf-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
-  <url>
-    <loc>https://brutalharmony.net/posts/2021-04-21-professional-software-developer/</loc>
-    <lastmod>2021-04-27</lastmod>
-  </url>
+  
+  
+  
+  
+  
+    
+  
+  
+    
   
   <url>
-    <loc>https://brutalharmony.net/README/</loc>
-    <lastmod>2021-04-27</lastmod>
+    <loc>https://brutalharmony.net/posts/2021-04-21-professional-software-developer/</loc>
+    <lastmod>2021-04-29T07:25:33.000Z</lastmod>
   </url>
+  
+  
+  
+  
+  
+  
+    
+  
+  
+  <url>
+    <loc>https://brutalharmony.net/about/</loc>
+    <lastmod>2021-04-29T07:26:19.201Z</lastmod>
+  </url>
+  
+  
+  
+  
+  
+  
+    
+  
+  
+  <url>
+    <loc>https://brutalharmony.net/posts/</loc>
+    <lastmod>2021-04-29T07:26:19.201Z</lastmod>
+  </url>
+  
+  
+  
+  
+  
+  
+    
+  
   
   <url>
     <loc>https://brutalharmony.net/</loc>
-    <lastmod>2021-04-27</lastmod>
+    <lastmod>2021-04-29T07:26:19.237Z</lastmod>
   </url>
   
-  <url>
-    <loc>https://brutalharmony.net/pages/about/</loc>
-    <lastmod>2021-04-27</lastmod>
-  </url>
+  
+  
+  
+  
+  
+    
+  
   
   <url>
-    <loc>https://brutalharmony.net/tags/software-development/</loc>
-    <lastmod>2021-04-27</lastmod>
+    <loc>https://brutalharmony.net/page-list/</loc>
+    <lastmod>2021-04-29T07:26:19.237Z</lastmod>
   </url>
   
-  <url>
-    <loc>https://brutalharmony.net/tags/work/</loc>
-    <lastmod>2021-04-27</lastmod>
-  </url>
+  
+  
+  
+  
+  
+    
+  
   
   <url>
     <loc>https://brutalharmony.net/tags/</loc>
-    <lastmod>2021-04-27</lastmod>
+    <lastmod>2021-04-29T07:26:19.237Z</lastmod>
+  </url>
+  
+  
+  
+  
+  
+  
+    
+  
+  
+  <url>
+    <loc>https://brutalharmony.net/tags/software-development/</loc>
+    <lastmod>2021-04-29T07:26:19.237Z</lastmod>
+  </url>
+  
+  
+  
+  
+  
+  
+    
+  
+  
+  <url>
+    <loc>https://brutalharmony.net/tags/work/</loc>
+    <lastmod>2021-04-29T07:26:19.237Z</lastmod>
   </url>
 </urlset>
