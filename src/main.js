@@ -93,6 +93,43 @@ document.documentElement.addEventListener("touchstart", prefetch, {
   passive: true,
 });
 
+const GA_ID = document.documentElement.getAttribute("ga-id");
+window.ga =
+  window.ga ||
+  function () {
+    if (!GA_ID) {
+      return;
+    }
+    (ga.q = ga.q || []).push(arguments);
+  };
+ga.l = +new Date();
+ga("create", GA_ID, "auto");
+ga("set", "transport", "beacon");
+var timeout = setTimeout(
+  (onload = function () {
+    clearTimeout(timeout);
+    ga("send", "pageview");
+  }),
+  1000
+);
+
+var ref = +new Date();
+function ping(event) {
+  var now = +new Date();
+  if (now - ref < 1000) {
+    return;
+  }
+  ga("send", {
+    hitType: "event",
+    eventCategory: "page",
+    eventAction: event.type,
+    eventLabel: Math.round((now - ref) / 1000),
+  });
+  ref = now;
+}
+addEventListener("pagehide", ping);
+addEventListener("visibilitychange", ping);
+
 /**
  * Injects a script into document.head
  * @param {string} src path of script to be injected in <head>
@@ -132,7 +169,12 @@ addEventListener(
     if (!button) {
       return;
     }
-},
+    ga("send", {
+      hitType: "event",
+      eventCategory: "button",
+      eventAction: button.getAttribute("aria-label") || button.textContent,
+    });
+  },
   true
 );
 var selectionTimeout;
@@ -144,6 +186,13 @@ addEventListener(
     if (text.split(/[\s\n\r]+/).length < 3) {
       return;
     }
+    selectionTimeout = setTimeout(function () {
+      ga("send", {
+        hitType: "event",
+        eventCategory: "selection",
+        eventAction: text,
+      });
+    }, 2000);
   },
   true
 );
