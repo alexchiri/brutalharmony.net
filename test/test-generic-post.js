@@ -82,7 +82,7 @@ describe("check build output for a generic post", () => {
       expect(noscript.length).to.be.greaterThan(0);
       let count = 0;
       for (let n of noscript) {
-        if (n.textContent.includes("/functions/ga")) {
+        if (n.textContent.includes("/.netlify/functions/ga")) {
           count++;
           expect(n.textContent).to.contain(GA_ID);
         }
