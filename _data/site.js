@@ -1,6 +1,6 @@
 module.exports = {
   meta: {
-    title: "Brutal Harmony",
+    title: "brutalharmony.net",
     description: "A blog about the brutal harmony in the world of tech.",
     lang: "en",
     siteUrl: "https://brutalharmony.net/",
