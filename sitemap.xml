@@ -7,32 +7,37 @@
   </url>
   
   <url>
-    <loc>https://brutalharmony.net/README/</loc>
-    <lastmod>2021-04-30</lastmod>
+    <loc>https://brutalharmony.net/about/</loc>
+    <lastmod>2021-05-01</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://brutalharmony.net/posts/</loc>
+    <lastmod>2021-05-01</lastmod>
   </url>
   
   <url>
     <loc>https://brutalharmony.net/</loc>
-    <lastmod>2021-04-30</lastmod>
+    <lastmod>2021-05-01</lastmod>
   </url>
   
   <url>
-    <loc>https://brutalharmony.net/pages/about/</loc>
-    <lastmod>2021-04-30</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://brutalharmony.net/tags/software-development/</loc>
-    <lastmod>2021-04-30</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://brutalharmony.net/tags/work/</loc>
-    <lastmod>2021-04-30</lastmod>
+    <loc>https://brutalharmony.net/page-list/</loc>
+    <lastmod>2021-05-01</lastmod>
   </url>
   
   <url>
     <loc>https://brutalharmony.net/tags/</loc>
-    <lastmod>2021-04-30</lastmod>
+    <lastmod>2021-05-01</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://brutalharmony.net/tags/software-development/</loc>
+    <lastmod>2021-05-01</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://brutalharmony.net/tags/work/</loc>
+    <lastmod>2021-05-01</lastmod>
   </url>
 </urlset>

@@ -1,60 +1,42 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Professional Software Developer | brutalharmony.net</title>
-  <meta name="description" content="Are we behaving like a professional, an amateur or a hack in our work?">
+  <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-195662313-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
 
-  <link rel="shortcut icon" href="/static/img/favicon.ico" type="image/x-icon">
-  <link rel="stylesheet" href="/static/css/main.css" media="all">
+      gtag('config', 'UA-195662313-1');
+    </script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Professional Software Developer</title>
+    <meta name="description" content="Are we behaving like a professional, an amateur or a hack in our work?">
+    <link rel="stylesheet" href="/css/index.css">
+    <link rel="stylesheet" href="/css/prism-base16-monokai.dark.css">
+    <link rel="alternate" href="/feed/feed.xml" type="application/atom+xml" title="brutalharmony.net">
+    <link rel="alternate" href="/feed/feed.json" type="application/json" title="brutalharmony.net">
+    <link rel="shortcut icon" href="/img/favicon.ico" type="image/x-icon">   
+  </head>
+  <body>
+    <header>
+      <h1 class="home"><a href="/">brutalharmony.net</a></h1>
+      <ul class="nav">
+        <li class="nav-item"><a href="/">Home</a></li>
+        <li class="nav-item"><a href="/posts/">Archive</a></li>
+        <li class="nav-item"><a href="/about/">About Me</a></li>
+      </ul>
+    </header>
 
-</head>
-<body>
-  
-<nav class="navbar">
-  <div class="navbar__inner">
-    <a class="navbar__logo" href="/">brutalharmony.net</a>
+    <main class="tmpl-post">
 
-    <button class="navbar__hamburger" aria-expanded="false" aria-label="toggle menu">
-      <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px" fill="#333333">
-        <path d="M0 0h24v24H0z" fill="none"/>
-        <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/>
-      </svg>
-    </button>
+      <h1>Professional Software Developer</h1>
 
-    <div class="navbar__links">
-      
-        <a class="navbar__link " href="/">
-          Home
-        </a>
-        <a class="navbar__link " href="/pages/about/">
-          About
-        </a>
-        <a class="navbar__link " href="/tags/">
-          Tags
-        </a>
-    </div>
-  </div>
+<time datetime="2021-04-27">27 Apr 2021</time><a href="/tags/software-development/" class="post-tag">software-development</a><a href="/tags/work/" class="post-tag">work</a>
 
-  <div class="navbar__mobile-links">
-    
-      <a class="navbar__mobile-link " href="/">
-        Home
-      </a>
-      <a class="navbar__mobile-link " href="/pages/about/">
-        About
-      </a>
-      <a class="navbar__mobile-link " href="/tags/">
-        Tags
-      </a>
-  </div>
-
-</nav>
-  
-<div class="container-sm">
-  <h1>Professional Software Developer</h1>
-  <p>While my mind was going to random places, it brought into focus that this activity I was spend my days (and sometimes nights) on has not been around for that much time, maybe a few tens of years?</p>
+<p>While my mind was going to random places, it brought into focus that this activity I was spend my days (and sometimes nights) on has not been around for that much time, maybe a few tens of years?</p>
 <p>And is it a profession? Am I a &quot;professional&quot;?</p>
 <p>While it seems that something being a profession is <a href="https://kenschwaber.wordpress.com/2011/05/26/software-development-a-profession/">more of a technicality than anything else</a>, being a professional is a bit more complicated and might have something more interesting to look into.</p>
 <p>These thoughts were not coming at this time out of complete vacuum. No, quite the opposite. I was reading <a href="https://www.sethgodin.com">Seth Godin</a>'s new book called <a href="https://www.amazon.com/Practice-Shipping-Creative-Work-ebook/dp/B088QLT891/">The Practice</a>. He talks in it about the difference between a professional, an amateur and a hack. Before I go any further, I will try to define these categories of people, based on the content of the book:</p>
@@ -65,38 +47,10 @@
 <p>And does it matter? I think it does. Maybe on a short term the difference between the impact of the three categories is not great, but the focus should be on the long term. And honestly, there are situations when you'd be better off with a hack, but after that someone needs to clean up and put things into perspective.</p>
 
 
-  <br><hr>
-  
-    <b>Tags: </b>
-    
-      
-    
-      
-        <a href="/tags/software-development">software-development</a>, 
-      
-    
-      
-        <a href="/tags/work">work</a>
-      
-    
-  
-  <br><br>
-  <a href="/">&larr; Back home</a>
-</div>
+    </main>
 
-  <footer class="footer">
-  &copy; 2021 - brutalharmony.net
-</footer>
+    <footer></footer>
 
-  <script>
-    const ham = document.querySelector('.navbar__hamburger')
-    const menu = document.querySelector('.navbar__mobile-links')
-    ham.addEventListener('click', () => {
-      menu.classList.toggle('navbar__mobile-links--open')
-
-      let prevState = JSON.parse(ham.getAttribute('aria-expanded'))
-      ham.setAttribute('aria-expanded', !prevState)
-    })
-  </script>
-</body>
+    <!-- Current page: /posts/2021-04-21-professional-software-developer/ -->
+  </body>
 </html>

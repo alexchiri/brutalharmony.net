@@ -1,119 +1,66 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Homepage | brutalharmony.net</title>
-  <meta name="description" content="A blog about the brutal harmony in the world of tech.">
+  <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-195662313-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
 
-  <link rel="shortcut icon" href="/static/img/favicon.ico" type="image/x-icon">
-  <link rel="stylesheet" href="/static/css/main.css" media="all">
+      gtag('config', 'UA-195662313-1');
+    </script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>brutalharmony.net</title>
+    <meta name="description" content="A blog about the brutal harmony in the world of tech.">
+    <link rel="stylesheet" href="/css/index.css">
+    <link rel="stylesheet" href="/css/prism-base16-monokai.dark.css">
+    <link rel="alternate" href="/feed/feed.xml" type="application/atom+xml" title="brutalharmony.net">
+    <link rel="alternate" href="/feed/feed.json" type="application/json" title="brutalharmony.net">
+    <link rel="shortcut icon" href="/img/favicon.ico" type="image/x-icon">   
+  </head>
+  <body>
+    <header>
+      <h1 class="home"><a href="/">brutalharmony.net</a></h1>
+      <ul class="nav">
+        <li class="nav-item nav-item-active"><a href="/">Home</a></li>
+        <li class="nav-item"><a href="/posts/">Archive</a></li>
+        <li class="nav-item"><a href="/about/">About Me</a></li>
+      </ul>
+    </header>
 
-</head>
-<body>
-  
-<nav class="navbar">
-  <div class="navbar__inner">
-    <a class="navbar__logo" href="/">brutalharmony.net</a>
+    <main class="tmpl-home">
 
-    <button class="navbar__hamburger" aria-expanded="false" aria-label="toggle menu">
-      <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px" fill="#333333">
-        <path d="M0 0h24v24H0z" fill="none"/>
-        <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/>
-      </svg>
-    </button>
-
-    <div class="navbar__links">
       
-        <a class="navbar__link navbar__link--active" href="/">
-          Home
-        </a>
-        <a class="navbar__link " href="/pages/about/">
-          About
-        </a>
-        <a class="navbar__link " href="/tags/">
-          Tags
-        </a>
-    </div>
-  </div>
+<h1>Latest Post</h1>
 
-  <div class="navbar__mobile-links">
+
+
+<ol reversed class="postlist" style="counter-reset: start-from 2">
+
+  <li class="postlist-item">
+    <a href="/posts/2021-04-21-professional-software-developer/" class="postlist-link">Professional Software Developer</a>
+    <time class="postlist-date" datetime="2021-04-27">27 Apr 2021</time>
     
-      <a class="navbar__mobile-link navbar__mobile-link--active" href="/">
-        Home
-      </a>
-      <a class="navbar__mobile-link " href="/pages/about/">
-        About
-      </a>
-      <a class="navbar__mobile-link " href="/tags/">
-        Tags
-      </a>
-  </div>
+      
+      <a href="/tags/software-development/" class="post-tag">software-development</a>
+    
+      
+      <a href="/tags/work/" class="post-tag">work</a>
+    
+  </li>
 
-</nav>
-  
-<div class="container">
-  <div class="hero">
-    <h1>
-      
-        
-        Brutal Harmony
-      
-    </h1>
-    <p class="hero__description">
-      
-        A blog about the brutal harmony in the world of tech.
-      
-    </p>
-  </div>
+</ol>
 
-  <h2 class="section-title">
-    Latest Posts
-  </h2>
-  <div class="card-grid">
-  
-    <div class="card">
-      <h3 class="card__title">
-        <a href="/posts/2021-04-21-professional-software-developer/">Professional Software Developer</a>
-      </h3>
-      <p class="card__date">27 Apr, 2021</p>
-      <p class="card__description">Are we behaving like a professional, an amateur or a hack in our work?</p>
-      <p class="card__subtitle">Tags:</p>
-      <div class="card__tags">
-        
-          
-        
-          
-            <a href="/tags/software-development">software-development</a>, 
-          
-        
-          
-            <a href="/tags/work">work</a>
-          
-        
-      </div>
-    </div>
-  
-</div>
-  <div class="pagination">
-      
-      
-  </div>
-</div>
 
-  <footer class="footer">
-  &copy; 2021 - brutalharmony.net
-</footer>
+<p>More posts can be found in <a href="/posts/">the archive</a>.</p>
 
-  <script>
-    const ham = document.querySelector('.navbar__hamburger')
-    const menu = document.querySelector('.navbar__mobile-links')
-    ham.addEventListener('click', () => {
-      menu.classList.toggle('navbar__mobile-links--open')
 
-      let prevState = JSON.parse(ham.getAttribute('aria-expanded'))
-      ham.setAttribute('aria-expanded', !prevState)
-    })
-  </script>
-</body>
+    </main>
+
+    <footer></footer>
+
+    <!-- Current page: / -->
+  </body>
 </html>
